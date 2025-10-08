@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="20dp"
+        android:textSize="40sp"
+        android:text="@string/teaching_library"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="80dp"
+        android:textSize="16sp"
+        android:text="@string/teaching_library_description"/>
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="130dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Grade 1-5"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="230dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Grade 6-8"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="330dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Algebra"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="430dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Geometry"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="530dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Algebra 2"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:translationY="640dp"
+        android:backgroundTint="@color/mmButtonBG"
+        app:cornerRadius="@dimen/mmButtonCornerRadius"  />
+
+    <ImageButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:translationX="60dp"
+        android:translationY="650dp"
+        android:background="@drawable/undo_button"/>
+
+    <ImageButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:translationX="135dp"
+        android:translationY="647.5dp"
+        android:background="@drawable/home_button"/>
+
+    <ImageButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:translationX="220dp"
+        android:translationY="650dp"
+        android:background="@drawable/settings_button"/>
+
+    <ImageButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:translationX="300dp"
+        android:translationY="650dp"
+        android:background="@drawable/achievement_button"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
