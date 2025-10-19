@@ -97,51 +97,5 @@
         android:textColor="@color/black"
         />
 
-    <Button
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="370dp"
-        android:layout_height="65dp"
-        android:translationY="640dp"
-        android:backgroundTint="@color/mmButtonBG"
-        app:cornerRadius="@dimen/mmButtonCornerRadius"  />
-
-    <ImageButton
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:translationX="60dp"
-        android:translationY="650dp"
-        android:background="@drawable/undo_button"/>
-
-    <ImageButton
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:translationX="135dp"
-        android:translationY="647.5dp"
-        android:background="@drawable/home_button"/>
-
-    <ImageButton
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:translationX="220dp"
-        android:translationY="650dp"
-        android:background="@drawable/settings_button"/>
-
-    <ImageButton
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:translationX="300dp"
-        android:translationY="650dp"
-        android:background="@drawable/achievement_button"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

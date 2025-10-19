@@ -12,18 +12,13 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends BaseActivity {
+public class Settings extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setActivityLayout(R.layout.activity_main);
-
-
-        Button teachingLibrary = findViewById(R.id.teachingLibrary);
-        teachingLibrary.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, TeachLIB.class));});
+        setActivityLayout(R.layout.settings);
 
     }
 }

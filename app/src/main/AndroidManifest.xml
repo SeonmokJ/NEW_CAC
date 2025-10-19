@@ -12,12 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NEW_CAC">
 
+        <activity android:name=".BaseActivity"/>
+        <activity android:name=".Settings"/>
         <activity android:name=".TeachLIB"/>
         <activity android:name=".TeachLIBmath"/>
         <activity android:name=".TeachLIBscience"/>
         <activity android:name=".TeachLIBenglish"/>
         <activity android:name=".TeachLIBhistory"/>
         <activity android:name=".TeachLIBcoding"/>
+        <activity android:name=".AchievementActivity"/>
 
         <activity android:name=".MainActivity"
             android:exported="true">
