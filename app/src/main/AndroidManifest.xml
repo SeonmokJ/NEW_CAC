@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NEW_CAC">
         <activity
-            android:name=".MainActivity"
+            android:name=".NotesListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NoteDetailActivity" />
+        <activity
+            android:name=".KnowledgeVault"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
