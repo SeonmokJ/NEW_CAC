@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA"
+    tools:context=".KnowledgeVault">
+
+    <!-- Title and category -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Record Your Learning"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#212121"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="#757575"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- NEW noteTitle EditText -->
+    <EditText
+        android:id="@+id/noteTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter note title"
+        android:padding="12dp"
+        android:textColor="#212121"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/categoryLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Existing note content EditText -->
+
+    <EditText
+        android:id="@+id/inputBox"
+        android:layout_width="382dp"
+        android:layout_height="487dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text"
+        android:gravity="top|start"
+        android:hint="Type your notes..."
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textColor="#212121"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/saveNote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.35"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noteTitle" />
+
+    <Button
+        android:id="@+id/saveNote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Save Note"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#607D8B"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/inputBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Show Notes button -->
+    <Button
+        android:id="@+id/showNotesBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Show Notes"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#455A64"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/saveNote"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
