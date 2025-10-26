@@ -51,7 +51,7 @@ public class BaseActivity extends AppCompatActivity {
                 startActivity(new Intent(this, TeachLIB.class));
                 return true;
             } else if (id == R.id.navVault) {
-                startActivity(new Intent(this, Timer.class));
+                startActivity(new Intent(this, KnowledgeVault.class));
                 return true;
             }
             return false;

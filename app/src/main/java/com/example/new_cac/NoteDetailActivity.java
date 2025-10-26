@@ -11,7 +11,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class NoteDetailActivity extends AppCompatActivity {
+public class NoteDetailActivity extends BaseActivity {
 
     private EditText noteContentEditText;
     private Button saveBtn, cancelBtn;
@@ -20,7 +20,7 @@ public class NoteDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_note_detail);
+        setActivityLayout(R.layout.activity_note_detail);
 
         noteContentEditText = findViewById(R.id.noteContentEditText);
         saveBtn = findViewById(R.id.saveBtn);
