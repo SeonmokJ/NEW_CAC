@@ -1,8 +1,10 @@
 package com.example.new_cac;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,8 +24,13 @@ public class MainActivity extends BaseActivity {
 
 
         Button teachingLibrary = findViewById(R.id.teachingLibrary);
+        Button timer = findViewById(R.id.timer);
+
         teachingLibrary.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, TeachLIB.class));});
+
+        timer.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, Timer.class));});
 
     }
 }

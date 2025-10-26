@@ -35,38 +35,23 @@ public class BaseActivity extends AppCompatActivity {
     private void setupBottomNavigation() {
         BottomNavigationView navBar = findViewById(R.id.bottomNavigationView);
         Menu menu = navBar.getMenu();
-
-        int[][] states = new int[][] {
-                new int[] { android.R.attr.state_checked }, // selected
-                new int[] { -android.R.attr.state_checked } // unselected
-        };
-
-        int[] colors = new int[] {
-                getResources().getColor(R.color.selectedColor),   // selected color
-                getResources().getColor(R.color.unselectedColor)  // unselected color
-        };
-
-// Create a ColorStateList
-        ColorStateList colorStateList = new ColorStateList(states, colors);
-
-// Apply it to icons and text
-        navBar.setItemIconTintList(colorStateList);
-        navBar.setItemTextColor(colorStateList);
-//-------------------------------------------------------------
         navBar.setOnItemSelectedListener(item -> {
             int id = item.getItemId();
 
             if (id == R.id.navHome) {
                 startActivity(new Intent(this, MainActivity.class));
                 return true;
-            } else if (id == R.id.navSettings) {
-                startActivity(new Intent(this, Settings.class));
-                return true;
             } else if (id == R.id.navBack) {
                 finish();
                 return true;
-            } else if (id == R.id.navAchievement) {
-                startActivity(new Intent(this, AchievementActivity.class));
+            } else if (id == R.id.navTimer) {
+                startActivity(new Intent(this, Timer.class));
+                return true;
+            } else if (id == R.id.navLibrary) {
+                startActivity(new Intent(this, TeachLIB.class));
+                return true;
+            } else if (id == R.id.navVault) {
+                startActivity(new Intent(this, Timer.class));
                 return true;
             }
             return false;

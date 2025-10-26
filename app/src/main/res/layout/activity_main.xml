@@ -19,26 +19,7 @@
         />
 
     <Button
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="@dimen/mmButtonWidth"
-        android:layout_height="@dimen/mmButtonHeight"
-        android:translationX="@dimen/mmLButtonXtrans"
-        android:translationY="@dimen/mmTButtonYtrans"
-        android:backgroundTint="@color/mmButtonBG"
-        app:cornerRadius="@dimen/mmButtonCornerRadius" />
-
-    <Button
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="@dimen/mmButtonWidth"
-        android:layout_height="@dimen/mmButtonHeight"
-        android:translationX="@dimen/mmRButtonXtrans"
-        android:translationY="@dimen/mmTButtonYtrans"
-        android:backgroundTint="@color/mmButtonBG"
-        app:cornerRadius="@dimen/mmButtonCornerRadius" />
-
-    <Button
+        android:id="@+id/timer"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="@dimen/mmButtonWidth"
@@ -46,7 +27,10 @@
         android:translationX="@dimen/mmLButtonXtrans"
         android:translationY="@dimen/mmMButtonYtrans"
         android:backgroundTint="@color/mmButtonBG"
-        app:cornerRadius="@dimen/mmButtonCornerRadius" />
+        app:cornerRadius="@dimen/mmButtonCornerRadius"
+        android:text="Timer"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/teachingLibrary"
@@ -63,6 +47,7 @@
         android:textColor="@color/black"/>
 
     <Button
+        android:id="@+id/knowledgeVault"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +55,10 @@
         android:layout_height="@dimen/mmButtonHeight"
         android:translationY="@dimen/mmBButtonYtrans"
         android:backgroundTint="@color/mmButtonBG"
-        app:cornerRadius="30dp" />
+        app:cornerRadius="30dp"
+        android:text="Knowledge Vault"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
 
 
 
