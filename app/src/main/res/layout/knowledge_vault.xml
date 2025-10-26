@@ -52,52 +52,57 @@
         android:layout_marginTop="8dp"/>
 
     <!-- Existing note content EditText -->
+
+    <!-- Show Notes button -->
+
     <EditText
         android:id="@+id/inputBox"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:hint="Type your notes..."
+        android:layout_width="379dp"
+        android:layout_height="590dp"
+        android:layout_marginTop="8dp"
         android:background="@android:drawable/edit_text"
-        android:inputType="textMultiLine"
         android:gravity="top|start"
+        android:hint="Type your notes..."
+        android:inputType="textMultiLine"
         android:padding="12dp"
         android:textColor="#212121"
         android:textSize="15sp"
-        app:layout_constraintTop_toBottomOf="@id/noteTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/saveNote"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_default="percent"
         app:layout_constraintHeight_percent="0.35"
-        android:layout_marginTop="8dp"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noteTitle" />
 
     <Button
         android:id="@+id/saveNote"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#607D8B"
         android:text="Save Note"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#607D8B"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/inputBox"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputBox" />
 
-    <!-- Show Notes button -->
     <Button
         android:id="@+id/showNotesBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#455A64"
         android:text="Show Notes"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#455A64"
         android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@id/saveNote"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="12dp"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saveNote" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
