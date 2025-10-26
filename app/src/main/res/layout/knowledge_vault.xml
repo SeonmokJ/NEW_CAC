@@ -52,10 +52,11 @@
         android:layout_marginTop="8dp"/>
 
     <!-- Existing note content EditText -->
+
     <EditText
         android:id="@+id/inputBox"
-        android:layout_width="376dp"
-        android:layout_height="621dp"
+        android:layout_width="382dp"
+        android:layout_height="487dp"
         android:layout_marginTop="8dp"
         android:background="@android:drawable/edit_text"
         android:gravity="top|start"
@@ -68,6 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_default="percent"
         app:layout_constraintHeight_percent="0.35"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/noteTitle" />
 
