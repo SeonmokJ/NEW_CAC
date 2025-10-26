@@ -11,12 +11,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NEW_CAC">
+<<<<<<< HEAD
         <activity
             android:name=".NotesListActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".NoteDetailActivity" />
         <activity
             android:name=".KnowledgeVault"
+=======
+
+        <activity android:name=".BaseActivity"/>
+        <activity android:name=".Settings"/>
+        <activity android:name=".TeachLIB"/>
+        <activity android:name=".TeachLIBmath"/>
+        <activity android:name=".TeachLIBscience"/>
+        <activity android:name=".TeachLIBenglish"/>
+        <activity android:name=".TeachLIBhistory"/>
+        <activity android:name=".TeachLIBcoding"/>
+        <activity android:name=".Timer"/>
+
+        <activity android:name=".MainActivity"
+>>>>>>> seonmok
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

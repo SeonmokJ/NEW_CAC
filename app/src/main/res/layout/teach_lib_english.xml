@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="20dp"
+        android:textSize="40sp"
+        android:text="@string/teaching_library"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="80dp"
+        android:textSize="16sp"
+        android:text="@string/teaching_library_description"/>
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="130dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Punctuation"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="230dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Daily Vocab"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="330dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Grammar"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="430dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Verb Tense"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="@dimen/tlSelectorButtonLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="530dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="smth"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

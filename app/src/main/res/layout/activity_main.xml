@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="25dp"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/timer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="@dimen/mmButtonWidth"
+        android:layout_height="@dimen/mmButtonHeight"
+        android:translationX="@dimen/mmLButtonXtrans"
+        android:translationY="@dimen/mmMButtonYtrans"
+        android:backgroundTint="@color/mmButtonBG"
+        app:cornerRadius="@dimen/mmButtonCornerRadius"
+        android:text="Timer"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/teachingLibrary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="@dimen/mmButtonWidth"
+        android:layout_height="@dimen/mmButtonHeight"
+        android:translationX="@dimen/mmRButtonXtrans"
+        android:translationY="@dimen/mmMButtonYtrans"
+        android:backgroundTint="@color/mmButtonBG"
+        app:cornerRadius="@dimen/mmButtonCornerRadius"
+        android:text="Teaching Library"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/knowledgeVault"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="370dp"
+        android:layout_height="@dimen/mmButtonHeight"
+        android:translationY="@dimen/mmBButtonYtrans"
+        android:backgroundTint="@color/mmButtonBG"
+        app:cornerRadius="30dp"
+        android:text="Knowledge Vault"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

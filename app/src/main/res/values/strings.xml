@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">NEW_CAC</string>
+    <string name="app_name">Focus Vault</string>
+    <string name="teaching_library">Teaching Library</string>
+    <string name="teaching_library_description">Choose a subject to explore</string>
 </resources>

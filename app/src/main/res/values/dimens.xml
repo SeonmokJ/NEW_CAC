@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN PAGE -->
+    <dimen name="mmLButtonXtrans">20dp</dimen>
+    <dimen name="mmRButtonXtrans">220dp</dimen><!-- screen-(width+left)? -->
+
+    <dimen name="mmTButtonYtrans">110dp</dimen>
+    <dimen name="mmMButtonYtrans">290dp</dimen>
+    <dimen name="mmBButtonYtrans">470dp</dimen>
+
+    <dimen name="mmButtonWidth">170dp</dimen>
+    <dimen name="mmButtonHeight">140dp</dimen>
+    <dimen name="mmButtonCornerRadius">30dp</dimen>
+
+    <!-- TEACHING LIBRARY -->
+    <dimen name="tlSelectorButtonWidth">325dp</dimen>
+    <dimen name="tlSelectorButtonLength">85dp</dimen>
+    <dimen name="tlSelectorButtonCornerRadius">15dp</dimen>
+
+</resources>

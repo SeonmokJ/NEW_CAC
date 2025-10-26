@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mmButtonBG">#C2C2C2</color>
+    <color name="tlSelectorButtonBG">#C2C2C2</color>
+
+    <color name="selectedColor">#FF0000</color> <!-- red for selected item -->
+    <color name="unselectedColor">#000000</color> <!-- black for unselected items -->
+
 </resources>
