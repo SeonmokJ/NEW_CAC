@@ -36,7 +36,7 @@
         android:translationY="130dp"
         app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
         android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Grade 1-5"
+        android:text="Algebra"
         android:textSize="40sp"
         android:textColor="@color/black"
         />
@@ -50,7 +50,7 @@
         android:translationY="230dp"
         app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
         android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Grade 6-8"
+        android:text="Quadratics"
         android:textSize="40sp"
         android:textColor="@color/black"
         />
@@ -64,7 +64,7 @@
         android:translationY="330dp"
         app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
         android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Algebra"
+        android:text="Geometry"
         android:textSize="40sp"
         android:textColor="@color/black"
         />
@@ -78,7 +78,7 @@
         android:translationY="430dp"
         app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
         android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Geometry"
+        android:text="Trigonometry"
         android:textSize="40sp"
         android:textColor="@color/black"
         />
