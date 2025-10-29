@@ -32,6 +32,11 @@
         <activity android:name=".LIBliterary"/>
         <activity android:name=".LIBmedialit"/>
         <activity android:name=".LIBgrammar"/>
+        <activity android:name=".KnowledgeVault"/>
+        <activity
+            android:name=".NotesListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NoteDetailActivity" />
 
         <activity android:name=".MainActivity"
             android:exported="true">

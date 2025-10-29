@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.io.File;
 import java.io.FileOutputStream;
 
-public class KnowledgeVault extends AppCompatActivity {
+public class KnowledgeVault extends BaseActivity {
 
     private EditText noteTitle, inputBox;
     private Button saveBtn, showNotesBtn;
@@ -20,7 +20,7 @@ public class KnowledgeVault extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.knowledge_vault);
+        setActivityLayout(R.layout.knowledge_vault);
 
         // Initialize views
         noteTitle = findViewById(R.id.noteTitle);

@@ -21,7 +21,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         setActivityLayout(R.layout.activity_main);
-        
+
 
     }
 }

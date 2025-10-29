@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class NotesListActivity extends AppCompatActivity {
+public class NotesListActivity extends BaseActivity {
 
     private ListView notesListView;
     private ArrayList<String> noteFiles;
@@ -17,7 +17,7 @@ public class NotesListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notes_list);
+        setActivityLayout(R.layout.activity_notes_list);
 
         notesListView = findViewById(R.id.notesListView);
 

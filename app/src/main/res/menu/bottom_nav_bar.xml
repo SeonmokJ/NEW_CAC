@@ -18,10 +18,11 @@
     <item
         android:id="@+id/navLibrary"
         android:icon="@drawable/library"
-        android:title="Teaching Library"/>
+        android:title="Library"/>
 
     <item
         android:id="@+id/navVault"
-        android:title="Knowledge Vault"/>
+        android:icon="@drawable/notes"
+        android:title="Notes"/>
 
 </menu>
