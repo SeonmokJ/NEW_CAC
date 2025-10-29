@@ -21,6 +21,11 @@
         <activity android:name=".TeachLIBhistory"/>
         <activity android:name=".TeachLIBcoding"/>
         <activity android:name=".Timer"/>
+        <activity android:name=".KnowledgeVault"/>
+        <activity
+            android:name=".NotesListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NoteDetailActivity" />
 
         <activity android:name=".MainActivity"
             android:exported="true">
