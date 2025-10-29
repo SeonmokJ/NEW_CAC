@@ -19,7 +19,6 @@
         <activity android:name=".TeachLIBscience"/>
         <activity android:name=".TeachLIBenglish"/>
         <activity android:name=".TeachLIBhistory"/>
-        <activity android:name=".TeachLIBcoding"/>
         <activity android:name=".Timer"/>
         <activity android:name=".LIBalg1"/>
         <activity android:name=".LIBgeo"/>
@@ -30,6 +29,9 @@
         <activity android:name=".LIBush"/>
         <activity android:name=".LIBworlds"/>
         <activity android:name=".LIBgov"/>
+        <activity android:name=".LIBliterary"/>
+        <activity android:name=".LIBmedialit"/>
+        <activity android:name=".LIBgrammar"/>
 
         <activity android:name=".MainActivity"
             android:exported="true">

@@ -21,16 +21,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         setActivityLayout(R.layout.activity_main);
-
-
-        Button teachingLibrary = findViewById(R.id.teachingLibrary);
-        Button timer = findViewById(R.id.timer);
-
-        teachingLibrary.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, TeachLIB.class));});
-
-        timer.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, Timer.class));});
+        
 
     }
 }

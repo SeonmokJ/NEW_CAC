@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F2FFF2">
 
-    <!-- Container for child activity content -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="0dp"
@@ -27,6 +27,6 @@
         android:backgroundTint="@color/white"
         app:labelVisibilityMode="labeled"
         android:focusableInTouchMode="false"
-        android:background="@color/mmButtonBG"
+        android:background="@color/button"
         app:itemBackground="@android:color/transparent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

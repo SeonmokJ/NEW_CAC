@@ -126,7 +126,7 @@ Compound Inequalities: Combine results of two inequalities.\n\n\n"
         app:layout_constraintStart_toStartOf="parent"
         app:cornerRadius="0dp"
         android:padding="0dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/button"
         />
 
     <TextView

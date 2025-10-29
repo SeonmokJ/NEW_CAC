@@ -14,7 +14,7 @@
 
     <!-- TEACHING LIBRARY -->
     <dimen name="tlSelectorButtonWidth">325dp</dimen>
-    <dimen name="tlSelectorButtonLength">85dp</dimen>
+    <dimen name="tlSelectorButtonLength">105dp</dimen>
     <dimen name="tlSelectorButtonCornerRadius">15dp</dimen>
 
 </resources>
