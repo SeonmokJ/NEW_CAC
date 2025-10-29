@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/alg1text"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="
+--- Foundations of Algebra ---\n
+Variables and Expressions: Use letters to represent unknown values.\n
+Order of Operations: Follow PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction).\n
+Properties of Numbers: Commutative (a+b=b+a), Associative ((a+b)+c=a+(b+c)), Distributive (a(b+c)=ab+ac), Identity, and Inverse.\n
+Simplifying Expressions: Combine like terms and apply properties.\n
+\n
+--- Solving Equations and Inequalities ---\n
+One-Step and Multi-Step Equations: Use inverse operations to isolate the variable.\n
+Equations with Variables on Both Sides: Move all variables to one side before solving.\n
+Literal Equations: Solve for a specific variable in a formula.\n
+Inequalities: Flip inequality when multiplying or dividing by a negative number.\n
+Compound Inequalities: “And” means intersection, “Or” means union.\n
+Absolute Value Equations: |x| = a gives x = a or x = -a.\n
+\n
+--- Functions ---\n
+Definition: A relation where each input has exactly one output.\n
+Function Notation: f(x) represents the output when x is input.\n
+Domain and Range: Domain = inputs (x-values), Range = outputs (y-values).\n
+Evaluating Functions: Substitute x with a given number into f(x).\n
+Determining if a Relation is a Function: Use the vertical line test.\n
+\n
+--- Linear Equations and Graphs ---\n
+Slope Formula: m = (y2 - y1) / (x2 - x1)\n
+Slope-Intercept Form: y = mx + b (m = slope, b = y-intercept).\n
+Point-Slope Form: y - y1 = m(x - x1)\n
+Standard Form: Ax + By = C.\n
+Graphing Lines: Plot y-intercept, then use slope (rise/run).\n
+Parallel Lines: Same slope.\n
+Perpendicular Lines: Slopes are negative reciprocals.\n
+\n
+--- Systems of Equations and Inequalities ---\n
+Solving by Graphing: Find intersection of two lines.\n
+Substitution Method: Replace one variable with its equivalent expression.\n
+Elimination Method: Add or subtract equations to eliminate a variable.\n
+Types of Solutions: One (intersecting lines), None (parallel lines), Infinite (same line).\n
+Graphing Systems of Inequalities: Shade regions satisfying each inequality.\n
+\n
+--- Exponents and Exponential Functions ---\n
+Product Rule: a^m × a^n = a^(m+n)\n
+Quotient Rule: a^m / a^n = a^(m-n)\n
+Power Rule: (a^m)^n = a^(mn)\n
+Zero Exponent: a^0 = 1.\n
+Negative Exponent: a^-n = 1 / a^n.\n
+Exponential Growth: y = a(1 + r)^t\n
+Exponential Decay: y = a(1 - r)^t\n
+\n
+--- Polynomials ---\n
+Terms: Parts of an expression separated by + or -.\n
+Degree: Highest exponent.\n
+Adding/Subtracting Polynomials: Combine like terms.\n
+Multiplying Polynomials: Use distributive property or FOIL.\n
+Special Products: (a+b)^2 = a^2 + 2ab + b^2; (a-b)^2 = a^2 - 2ab + b^2; (a+b)(a-b) = a^2 - b^2.\n
+\n
+--- Factoring ---\n
+GCF: Factor out the largest common term.\n
+Difference of Squares: a^2 - b^2 = (a + b)(a - b).\n
+Trinomials: ax^2 + bx + c → (px + q)(rx + s).\n
+Factoring by Grouping: Group terms and factor common expressions.\n
+Solving by Factoring: Set each factor = 0 and solve.\n
+\n
+--- Quadratic Equations and Functions ---\n
+Standard Form: y = ax^2 + bx + c.\n
+Vertex Form: y = a(x - h)^2 + k (vertex = (h, k)).\n
+Axis of Symmetry: x = -b / (2a).\n
+Factoring Method: Set quadratic = 0, then factor.\n
+Quadratic Formula: x = (-b ± √(b^2 - 4ac)) / (2a).\n
+Completing the Square: Convert to perfect square trinomial.\n
+Discriminant: b^2 - 4ac → number of real roots.\n
+Graphing: Parabolas open up (a &gt; 0) or down (a &lt; 0).\n
+\n
+--- Radicals and Rational Exponents ---\n
+Simplifying Radicals: √(a*b) = √a × √b.\n
+Rationalizing Denominators: Eliminate roots from denominators.\n
+nth Roots: a^(1/n) = nth root of a.\n
+Properties: a^(m/n) = n√(a^m).\n
+\n
+--- Data Analysis and Statistics ---\n
+Mean, Median, Mode, Range: Measures of center and spread.\n
+Box Plots and Histograms: Visualize data distribution.\n
+Scatter Plots: Show relationships between two variables.\n
+Line of Best Fit: Line that best models the data trend.\n
+Correlation: Positive, negative, or none.\n
+\n
+--- Sequences and Patterns ---\n
+Arithmetic Sequence: a_n = a_1 + (n - 1)d.\n
+Geometric Sequence: a_n = a_1 × r^(n - 1).\n
+Recursive Formula: Defines each term based on the previous one.\n
+\n
+--- Inequalities and Absolute Value (Advanced) ---\n
+|x| &lt; a → -a &lt; x &lt; a;  |x| &gt; a → x &lt; -a or x &gt; a.\n
+Graphing on a Number Line: Open circle (not included), closed circle (included).\n
+Compound Inequalities: Combine results of two inequalities.\n\n\n"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:translationY="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alg1text" />
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cornerRadius="0dp"
+        android:padding="0dp"
+        android:backgroundTint="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/alg1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="Algebra 1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

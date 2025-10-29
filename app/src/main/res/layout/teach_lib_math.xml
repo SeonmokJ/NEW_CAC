@@ -28,54 +28,27 @@
         android:text="@string/teaching_library_description"/>
 
     <Button
+        android:id="@+id/alg"
         android:layout_width="@dimen/tlSelectorButtonWidth"
-        android:layout_height="@dimen/tlSelectorButtonLength"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:translationY="130dp"
-        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
-        android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Grade 1-5"
-        android:textSize="40sp"
-        android:textColor="@color/black"
-        />
-
-    <Button
-        android:layout_width="@dimen/tlSelectorButtonWidth"
-        android:layout_height="@dimen/tlSelectorButtonLength"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:translationY="230dp"
-        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
-        android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Grade 6-8"
-        android:textSize="40sp"
-        android:textColor="@color/black"
-        />
-
-    <Button
-        android:layout_width="@dimen/tlSelectorButtonWidth"
-        android:layout_height="@dimen/tlSelectorButtonLength"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:translationY="330dp"
-        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:layout_height="120dp"
         android:backgroundTint="@color/tlSelectorButtonBG"
         android:text="Algebra"
-        android:textSize="40sp"
         android:textColor="@color/black"
-        />
+        android:textSize="40sp"
+        android:translationY="140dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/geo"
         android:layout_width="@dimen/tlSelectorButtonWidth"
-        android:layout_height="@dimen/tlSelectorButtonLength"
+        android:layout_height="120dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:translationY="430dp"
+        android:translationY="320dp"
         app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
         android:backgroundTint="@color/tlSelectorButtonBG"
         android:text="Geometry"
@@ -84,12 +57,13 @@
         />
 
     <Button
+        android:id="@+id/alg2"
         android:layout_width="@dimen/tlSelectorButtonWidth"
-        android:layout_height="@dimen/tlSelectorButtonLength"
+        android:layout_height="120dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:translationY="530dp"
+        android:translationY="500dp"
         app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
         android:backgroundTint="@color/tlSelectorButtonBG"
         android:text="Algebra 2"

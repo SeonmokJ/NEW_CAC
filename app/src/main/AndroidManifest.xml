@@ -21,6 +21,15 @@
         <activity android:name=".TeachLIBhistory"/>
         <activity android:name=".TeachLIBcoding"/>
         <activity android:name=".Timer"/>
+        <activity android:name=".LIBalg1"/>
+        <activity android:name=".LIBgeo"/>
+        <activity android:name=".LIBalg2"/>
+        <activity android:name=".LIBbio"/>
+        <activity android:name=".LIBchem"/>
+        <activity android:name=".LIBphysics"/>
+        <activity android:name=".LIBush"/>
+        <activity android:name=".LIBworlds"/>
+        <activity android:name=".LIBgov"/>
 
         <activity android:name=".MainActivity"
             android:exported="true">

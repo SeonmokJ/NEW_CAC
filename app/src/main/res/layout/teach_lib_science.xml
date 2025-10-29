@@ -7,10 +7,69 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="20dp"
+        android:textSize="40sp"
+        android:text="@string/teaching_library"/>
 
-<TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="science"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="80dp"
+        android:textSize="16sp"
+        android:text="@string/teaching_library_description"/>
+
+    <Button
+        android:id="@+id/bio"
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Biology"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:translationY="140dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chem"
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="320dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Chemistry"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/physics"
+        android:layout_width="@dimen/tlSelectorButtonWidth"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="500dp"
+        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
+        android:backgroundTint="@color/tlSelectorButtonBG"
+        android:text="Physics"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

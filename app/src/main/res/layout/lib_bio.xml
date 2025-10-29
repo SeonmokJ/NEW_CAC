@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/biologytext"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:translationY="55dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="
+--- Scientific Method and Basics ---\n
+Observation, Hypothesis, Experiment, Analysis, Conclusion\n
+Independent and Dependent Variables\n
+Controlled Experiments\n
+\n
+--- Chemistry of Life ---\n
+Atoms, Elements, Molecules, Compounds\n
+Water Properties (Polarity, Cohesion, Adhesion)\n
+Macromolecules: Carbohydrates, Lipids, Proteins, Nucleic Acids\n
+Enzymes and Activation Energy\n
+\n
+--- Cell Structure and Function ---\n
+Prokaryotic vs Eukaryotic Cells\n
+Animal and Plant Cell Organelles (Nucleus, Ribosome, Mitochondria, Chloroplast, etc.)\n
+Cell Membrane Structure and Transport (Diffusion, Osmosis, Active Transport)\n
+Homeostasis\n
+\n
+--- Energy in Living Systems ---\n
+Photosynthesis: 6CO2 + 6H2O -> C6H12O6 + 6O2\n
+Cellular Respiration: C6H12O6 + 6O2 -> 6CO2 + 6H2O + Energy (ATP)\n
+ATP Structure and Function\n
+\n
+--- Cell Division ---\n
+Mitosis: PMAT (Prophase, Metaphase, Anaphase, Telophase)\n
+Cytokinesis\n
+Meiosis and Genetic Variation\n
+Chromosome Structure\n
+\n
+--- Genetics ---\n
+DNA and RNA Structure\n
+Replication, Transcription, Translation\n
+Mendelian Genetics: Dominant, Recessive, Genotype, Phenotype\n
+Punnett Squares\n
+Non-Mendelian Inheritance: Incomplete Dominance, Codominance, Multiple Alleles\n
+Mutations and Karyotypes\n
+\n
+--- Evolution ---\n
+Natural Selection and Adaptation\n
+Evidence of Evolution: Fossils, Anatomy, DNA\n
+Speciation\n
+Darwin's Theory\n
+\n
+--- Ecology ---\n
+Levels of Organization: Organism, Population, Community, Ecosystem, Biosphere\n
+Food Chains, Webs, and Pyramids\n
+Biogeochemical Cycles: Carbon, Nitrogen, Water\n
+Symbiosis: Mutualism, Commensalism, Parasitism\n
+Ecosystem Dynamics and Succession\n
+\n
+--- Human Body Systems ---\n
+Digestive, Respiratory, Circulatory, Excretory\n
+Skeletal, Muscular, Nervous, Endocrine\n
+Immune and Reproductive Systems\n
+Homeostasis in Organ Systems\n
+\n
+--- Classification of Life ---\n
+Domains and Kingdoms\n
+Binomial Nomenclature\n
+Phylogenetic Trees and Cladograms\n
+\n
+--- Biotechnology (Intro) ---\n
+Genetic Engineering and Recombinant DNA\n
+Cloning and Gel Electrophoresis\n
+DNA Fingerprinting\n
+Ethical Implications of Genetic Research\n\n\n" />
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/white"
+        android:padding="0dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/biologytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="Biology" />
+</androidx.constraintlayout.widget.ConstraintLayout>

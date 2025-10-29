@@ -87,20 +87,5 @@
         android:textColor="@color/black"
         />
 
-    <Button
-        android:id="@+id/teachLIBcoding"
-        android:layout_width="@dimen/tlSelectorButtonWidth"
-        android:layout_height="@dimen/tlSelectorButtonLength"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:translationY="530dp"
-        app:cornerRadius="@dimen/tlSelectorButtonCornerRadius"
-        android:backgroundTint="@color/tlSelectorButtonBG"
-        android:text="Coding"
-        android:textSize="40sp"
-        android:textColor="@color/black"
-        />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
