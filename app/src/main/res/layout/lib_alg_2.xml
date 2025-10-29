@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/algebra2text"
+        tools:layout_editor_absoluteX="26dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="
+--- Foundations Review ---\n
+Real Numbers: Integers, rationals, irrationals, reals.\n
+Properties: Commutative, Associative, Distributive, Identity, Inverse.\n
+Operations with Exponents and Radicals.\n
+Simplifying Expressions and Solving Equations.\n
+\n
+--- Linear Equations and Inequalities ---\n
+Slope-Intercept Form: y = mx + b.\n
+Point-Slope Form: y - y₁ = m(x - x₁).\n
+Standard Form: Ax + By = C.\n
+Parallel and Perpendicular Lines.\n
+Systems of Equations: Solve by substitution, elimination, or graphing.\n
+Linear Inequalities and Systems of Inequalities.\n
+\n
+--- Functions ---\n
+Function Definition and Notation: f(x).\n
+Domain and Range.\n
+Composite Functions: (f ∘ g)(x) = f(g(x)).\n
+Inverse Functions: Swap x and y, then solve for y.\n
+Transformations: Shifts, reflections, stretches, compressions.\n
+Piecewise Functions: Defined by multiple rules.\n
+\n
+--- Quadratic Functions ---\n
+Forms: Standard y = ax² + bx + c, Vertex y = a(x - h)² + k.\n
+Vertex: (-b / 2a, f(-b / 2a)).\n
+Factoring, Completing the Square, and Quadratic Formula: x = (-b ± √(b² - 4ac)) / (2a).\n
+Discriminant (b² - 4ac): Determines number/type of solutions.\n
+Graphing Parabolas: Opens up (a>0) or down (a is greator than 0).\n
+\n
+--- Polynomial Functions ---\n
+Polynomial Degree and End Behavior.\n
+Factoring Techniques: GCF, grouping, synthetic division.\n
+Remainder and Factor Theorems.\n
+Zeros and Multiplicity.\n
+Graphing Polynomials: Turning points, intercepts.\n
+Polynomial Division: Long division, synthetic division.\n
+\n
+--- Rational Expressions and Equations ---\n
+Simplifying: Factor and cancel.\n
+Multiplying/Dividing: Multiply numerators and denominators.\n
+Adding/Subtracting: Use common denominators.\n
+Complex Fractions.\n
+Rational Equations: Find LCD, watch for extraneous solutions.\n
+Asymptotes: Vertical, horizontal, oblique.\n
+Graphing Rational Functions.\n
+\n
+--- Radical Expressions and Equations ---\n
+Simplify Radicals: √(a*b) = √a * √b.\n
+Operations: Add/subtract like radicals, multiply/divide normally.\n
+Rational Exponents: a^(m/n) = n√(a^m).\n
+Solving Radical Equations: Isolate radical, square both sides.\n
+Extraneous Solutions.\n
+\n
+--- Exponential and Logarithmic Functions ---\n
+Exponential Functions: y = ab^x.\n
+Exponential Growth/Decay: y = a(1 ± r)^t.\n
+Logarithmic Functions: log_b(x) = y ↔ b^y = x.\n
+Log Rules: log(ab) = log a + log b; log(a/b) = log a - log b; log(a^r) = r log a.\n
+Change of Base: log_b(a) = log a / log b.\n
+Solving Exponential/Logarithmic Equations.\n
+Graphing Logs and Exponentials.\n
+\n
+--- Complex Numbers ---\n
+Definition: i = √(-1).\n
+Operations: (a + bi) + (c + di), (a + bi)(c + di).\n
+Conjugates: (a + bi)(a - bi) = a² + b².\n
+Powers of i: i, -1, -i, 1 (repeats every 4).\n
+Quadratic Equations with Complex Roots.\n
+\n
+--- Sequences and Series ---\n
+Arithmetic Sequence: a_n = a₁ + (n - 1)d.\n
+Arithmetic Series: S_n = n/2 (a₁ + a_n).\n
+Geometric Sequence: a_n = a₁ * r^(n - 1).\n
+Geometric Series: S_n = a₁(1 - r^n) / (1 - r).\n
+Infinite Geometric Series: S = a₁ / (1 - r) for |r| is greator than 1.\n
+Recursive Formulas.\n
+\n
+--- Conic Sections ---\n
+Circle: (x - h)² + (y - k)² = r².\n
+Parabola: (x - h)² = 4p(y - k) or (y - k)² = 4p(x - h).\n
+Ellipse: (x - h)²/a² + (y - k)²/b² = 1.\n
+Hyperbola: (x - h)²/a² - (y - k)²/b² = 1.\n
+Vertices, Foci, and Axes of Symmetry.\n
+\n
+--- Probability and Statistics ---\n
+Permutations: nPr = n! / (n - r)!.\n
+Combinations: nCr = n! / (r!(n - r)!).\n
+Factorials and Counting Principle.\n
+Independent and Dependent Events.\n
+Conditional Probability: P(A|B) = P(A ∩ B) / P(B).\n
+Binomial Theorem and Expansion.\n
+Normal Distribution (basic introduction).\n
+\n
+--- Matrices ---\n
+Matrix Notation and Dimensions.\n
+Matrix Addition/Subtraction.\n
+Scalar Multiplication.\n
+Matrix Multiplication.\n
+Identity and Inverse Matrices.\n
+Determinant of a 2x2 or 3x3 Matrix.\n
+Solving Systems using Matrices: AX = B → X = A⁻¹B.\n
+\n
+--- Advanced Topics (Optional) ---\n
+Piecewise and Absolute Value Functions.\n
+Rational Exponents and Roots in Graphs.\n
+Transformations of Parent Functions.\n
+Composite and Inverse Functions (Advanced Practice).\n
+Modeling with Real-World Functions.\n\n\n"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:translationY="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/algebra2text"/>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/button"
+        android:padding="0dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/algebra2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="Algebra 2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/usgovtext"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:translationY="55dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="
+--- Foundations of Government ---\n
+Purpose and Functions of Government\n
+Forms of Government: Democracy, Republic, Monarchy, Dictatorship\n
+Social Contract Theory\n
+Constitutional Principles: Popular Sovereignty, Limited Government, Separation of Powers, Checks and Balances, Federalism\n
+\n
+--- Constitution ---\n
+Preamble, Articles, Amendments\n
+Bill of Rights\n
+Federalist vs Anti-Federalist Debates\n
+Ratification Process\n
+\n
+--- Branches of Government ---\n
+Legislative: Structure, Powers, Process of Lawmaking\n
+Executive: President, Cabinet, Powers, Elections\n
+Judicial: Supreme Court, Judicial Review, Court System\n
+\n
+--- Civil Liberties and Civil Rights ---\n
+Freedom of Speech, Religion, Press, Assembly\n
+Due Process and Equal Protection\n
+Landmark Supreme Court Cases\n
+Voting Rights and Participation\n
+\n
+--- Political Parties and Elections ---\n
+Major and Minor Parties\n
+Election Process, Primaries, General Elections\n
+Electoral College\n
+Campaigns and Political Platforms\n
+\n
+--- Public Policy and Government in Action ---\n
+Domestic and Foreign Policy\n
+Budget and Taxes\n
+Bureaucracy and Administration\n
+Citizen Participation\n
+\n
+--- State and Local Government ---\n
+State Constitutions and Powers\n
+Local Government Structure\n
+Education, Law Enforcement, and Public Services\n
+\n
+--- Current Events and Civic Engagement ---\n
+Understanding Media and News\n
+Advocacy and Civic Responsibility\n
+Community Involvement\n\n\n" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/button"
+        android:padding="0dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/usgovtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="US Government" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

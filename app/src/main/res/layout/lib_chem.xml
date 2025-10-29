@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/chemistrytext"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:translationY="55dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="
+--- Matter and Measurement ---\n
+States of Matter: Solid, Liquid, Gas, Plasma\n
+Physical and Chemical Properties\n
+Physical and Chemical Changes\n
+Law of Conservation of Mass\n
+Mixtures vs Pure Substances\n
+Separation Techniques (Filtration, Distillation)\n
+SI Units and Dimensional Analysis\n
+\n
+--- Atomic Structure ---\n
+Subatomic Particles: Proton, Neutron, Electron\n
+Atomic Number and Mass Number\n
+Isotopes and Ions\n
+Electron Configuration and Energy Levels\n
+Bohr Model and Quantum Model\n
+\n
+--- The Periodic Table ---\n
+Groups and Periods\n
+Metals, Nonmetals, Metalloids\n
+Periodic Trends: Atomic Radius, Ionization Energy, Electronegativity\n
+Valence Electrons and Reactivity\n
+\n
+--- Chemical Bonding ---\n
+Ionic Bonds: Transfer of Electrons\n
+Covalent Bonds: Sharing of Electrons\n
+Polar and Nonpolar Molecules\n
+Metallic Bonding\n
+Lewis Dot Structures and Molecular Geometry\n
+Electronegativity and Bond Polarity\n
+\n
+--- Chemical Reactions ---\n
+Types of Reactions: Synthesis, Decomposition, Single Replacement, Double Replacement, Combustion\n
+Balancing Chemical Equations\n
+Law of Conservation of Mass\n
+Coefficients vs Subscripts\n
+\n
+--- Stoichiometry ---\n
+Mole Concept: 1 Mole = 6.022 x 10^23 Particles\n
+Molar Mass and Conversions\n
+Percent Composition\n
+Empirical and Molecular Formulas\n
+Mole-Mole, Mole-Mass, and Mass-Mass Calculations\n
+Limiting Reactant and Percent Yield\n
+\n
+--- States of Matter and Gas Laws ---\n
+Kinetic Molecular Theory\n
+Pressure, Volume, Temperature Relationships\n
+Boyle's Law (P1V1 = P2V2)\n
+Charles's Law (V1/T1 = V2/T2)\n
+Gay-Lussac's Law (P1/T1 = P2/T2)\n
+Combined Gas Law\n
+Ideal Gas Law (PV = nRT)\n
+\n
+--- Solutions ---\n
+Solvent and Solute\n
+Concentration (Molarity = mol/L)\n
+Dilutions (M1V1 = M2V2)\n
+Solubility and Temperature Effects\n
+Types of Solutions: Unsaturated, Saturated, Supersaturated\n
+\n
+--- Thermochemistry ---\n
+Endothermic vs Exothermic Reactions\n
+Heat (q = mcΔT)\n
+Law of Conservation of Energy\n
+Calorimetry\n
+Enthalpy Changes\n
+\n
+--- Acids and Bases ---\n
+Acid and Base Properties\n
+pH Scale and Calculations (pH = -log[H+])\n
+Neutralization Reactions\n
+Titrations\n
+Strong vs Weak Acids and Bases\n
+\n
+--- Nuclear Chemistry ---\n
+Radioactive Decay: Alpha, Beta, Gamma\n
+Half-Life Calculations\n
+Fission and Fusion\n
+Applications of Radioactivity\n
+\n
+--- Basic Organic Chemistry ---\n
+Carbon Bonding\n
+Hydrocarbons: Alkanes, Alkenes, Alkynes\n
+Functional Groups (Alcohols, Acids, Esters)\n
+Naming Simple Organic Compounds\n\n\n" />
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/button"
+        android:padding="0dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/chemistrytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="Chemistry" />
+</androidx.constraintlayout.widget.ConstraintLayout>

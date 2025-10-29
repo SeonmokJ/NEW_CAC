@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/worldhistorytext"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:translationY="55dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="
+
+--- Ancient Civilizations ---\n
+Mesopotamia, Egypt, Indus Valley, China\n
+Governments, Religion, Economy\n
+Achievements: Writing, Architecture, Technology\n
+\n
+--- Classical Civilizations ---\n
+Greece: City-States, Democracy, Philosophy\n
+Rome: Republic, Empire, Law\n
+India: Maurya and Gupta Empires\n
+China: Qin and Han Dynasties\n
+Trade and Cultural Diffusion\n
+\n
+--- Medieval Period ---\n
+Feudalism in Europe\n
+Byzantine Empire\n
+Islamic Caliphates and Golden Age\n
+African Kingdoms: Mali, Ghana, Songhai\n
+Asian Empires: Tang, Song, Mongols\n
+\n
+--- Renaissance and Reformation ---\n
+Art, Science, Humanism\n
+Martin Luther and Protestant Reformation\n
+Scientific Revolution\n
+Exploration and Colonization\n
+\n
+--- Early Modern Period ---\n
+Absolute Monarchies\n
+Enlightenment Thinkers\n
+Industrial Revolution Begins\n
+European Imperialism\n
+\n
+--- Revolutions and Nationalism ---\n
+American and French Revolutions\n
+Latin American Independence Movements\n
+Industrialization Spread\n
+Nationalism in Europe and Asia\n
+\n
+--- 20th Century ---\n
+World War I: Causes and Effects\n
+Interwar Period: Great Depression, Rise of Dictators\n
+World War II: Causes, Key Events, Outcomes\n
+Cold War: US vs USSR, Proxy Wars\n
+Decolonization and Globalization\n
+\n
+--- Modern World ---\n
+Technological Advancements\n
+Global Conflicts and Cooperation\n
+Economic Systems and Trade\n
+Human Rights Movements\n
+Environmental Issues\n\n\n" />
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/button"
+        android:padding="0dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/worldhistorytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="World History" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/physicstext"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:translationY="55dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="
+
+--- Measurement and Units ---\n
+SI Units and Conversions\n
+Accuracy, Precision, and Significant Figures\n
+Scalars and Vectors\n
+Vector Addition and Resolution\n
+\n
+--- Motion (Kinematics) ---\n
+Distance, Displacement, Speed, Velocity\n
+Acceleration and Free Fall\n
+Equations of Motion: v = v0 + at, d = v0t + 0.5at^2\n
+Velocity-Time Graphs and Area Interpretation\n
+\n
+--- Forces and Newton's Laws ---\n
+Newton's First, Second, and Third Laws\n
+Force Diagrams (Free Body Diagrams)\n
+Friction, Normal Force, Tension, Weight\n
+F = ma (Net Force = Mass x Acceleration)\n
+Balanced and Unbalanced Forces\n
+\n
+--- Work, Energy, and Power ---\n
+Work = Force x Distance x cos(theta)\n
+Kinetic Energy = 0.5mv^2\n
+Potential Energy = mgh\n
+Conservation of Energy: KEi + PEi = KEf + PEf\n
+Power = Work / Time\n
+\n
+--- Momentum and Collisions ---\n
+Momentum = Mass x Velocity\n
+Impulse = Force x Time = Change in Momentum\n
+Conservation of Momentum\n
+Elastic and Inelastic Collisions\n
+\n
+--- Circular Motion and Gravity ---\n
+Centripetal Force = mv^2 / r\n
+Centripetal Acceleration = v^2 / r\n
+Newton's Law of Universal Gravitation: F = G(m1m2)/r^2\n
+Satellite Motion and Orbits\n
+\n
+--- Waves and Sound ---\n
+Wave Properties: Amplitude, Wavelength, Frequency, Speed\n
+Wave Equation: v = fλ\n
+Reflection, Refraction, Diffraction, Interference\n
+Sound Waves: Longitudinal, Speed in Different Media\n
+Doppler Effect\n
+\n
+--- Light and Optics ---\n
+Electromagnetic Spectrum\n
+Reflection and Mirrors (Concave, Convex)\n
+Refraction and Lenses (Convex, Concave)\n
+Snell's Law: n1sin(theta1) = n2sin(theta2)\n
+Image Formation and Ray Diagrams\n
+\n
+--- Electricity ---\n
+Electric Charge and Static Electricity\n
+Coulomb's Law: F = k(q1q2)/r^2\n
+Electric Fields and Potential Energy\n
+Current (I = Q / t), Voltage (V), and Resistance (R)\n
+Ohm's Law: V = IR\n
+Series and Parallel Circuits\n
+Power = IV = I^2R = V^2 / R\n
+\n
+--- Magnetism and Electromagnetism ---\n
+Magnetic Fields and Poles\n
+Electromagnets and Motors\n
+Electromagnetic Induction: Faraday's Law\n
+Generators and Transformers\n
+\n
+--- Modern Physics ---\n
+Atoms and Nuclear Structure\n
+Radioactivity and Half-Life\n
+Types of Radiation: Alpha, Beta, Gamma\n
+Fission vs Fusion\n
+Einstein's Equation: E = mc^2\n\n\n" />
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/button"
+        android:padding="0dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/physicstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="Physics" />
+</androidx.constraintlayout.widget.ConstraintLayout>

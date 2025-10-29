@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/mediaTitle"
+        android:fillViewport="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:translationY="60dp"
+            android:text="MEDIA LITERACY TOPICS\n
+\n1. Evaluating Sources\n- Determining credibility and bias\n- Recognizing authority, accuracy, and currency\n
+\n2. Analyzing Media Messages\n- Understanding purpose, audience, and tone\n- Identifying persuasive and emotional appeals\n
+\n3. Media Techniques\n- Camera angles, lighting, sound, and imagery\n- Symbolism and visual rhetoric\n
+\n4. Advertising and Persuasion\n- Recognizing propaganda and emotional manipulation\n- Understanding target audiences\n
+\n5. News Literacy\n- Fact vs. opinion\n- Detecting misinformation and fake news\n
+\n6. Social Media Awareness\n- Algorithms, echo chambers, and digital footprint\n- Responsible posting and sharing\n
+\n7. Comparing Media Formats\n- Print vs. digital vs. multimedia\n- Analyzing layout and presentation\n
+\n8. Ethical Use of Information\n- Avoiding plagiarism\n- Using proper citation and attribution\n
+\n9. Critical Viewing Skills\n- Evaluating credibility and purpose of videos, podcasts, or ads\n
+\n10. Media Production\n- Creating responsible digital content\n- Understanding copyright and fair use\n\n\n"/>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cornerRadius="0dp"
+        android:padding="0dp"
+        android:backgroundTint="@color/button"/>
+    <TextView
+        android:id="@+id/mediaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:text="Media Literacy"
+        android:textSize="28sp"
+        android:textColor="#000000"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -42,10 +42,5 @@ public class TeachLIB extends BaseActivity {
         teachingLIBhistory.setOnClickListener(v -> {
             Intent history = new Intent(TeachLIB.this, TeachLIBhistory.class);
             startActivity(history);});
-
-        Button teachingLIBcoding = findViewById(R.id.teachLIBcoding);
-        teachingLIBcoding.setOnClickListener(v -> {
-            Intent coding = new Intent(TeachLIB.this, TeachLIBcoding.class);
-            startActivity(coding);});
     }
 }

@@ -10,27 +10,18 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class TeachLIBmath extends BaseActivity {
+public class LIBgov extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setActivityLayout(R.layout.teach_lib_math);
+        setActivityLayout(R.layout.lib_gov);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button alg1 = findViewById(R.id.alg);
-        Button geo = findViewById(R.id.geo);
-        Button alg2 = findViewById(R.id.alg2);
-        alg1.setOnClickListener(v -> {
-            startActivity(new Intent(TeachLIBmath.this, LIBalg1.class));});
-        geo.setOnClickListener(v -> {
-            startActivity(new Intent(TeachLIBmath.this, LIBgeo.class));});
-        alg2.setOnClickListener(v -> {
-            startActivity(new Intent(TeachLIBmath.this, LIBalg2.class));});
 
     }
 }
